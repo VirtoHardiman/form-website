@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <input type="checkbox" class="show-containers" />
+      <input type="checkbox" class="show-navigation" />
+      <div class="layer-blur"></div>
+      <div class="description">
+        <div class="social-description">
+          <h1>Let's connect.</h1>
+          <p>Want to know me more? <br />Let's connect on LinkedIn!</p>
+          <div class="image-container">
+            <div>
+              <img src="assets/bird.png" alt="bird" />
+              <img src="assets/bird-lines.png" />
+            </div>
+            <div>
+              <img src="assets/car.png" alt="car" />
+              <img src="assets/car-lines.png" />
+            </div>
+            <div>
+              <img src="assets/hand-1.png" alt="blue hand" />
+            </div>
+            <div>
+              <img src="assets/laptop.png" alt="laptop" />
+              <img src="assets/404.png" />
+              <img src="assets/crack.png" />
+              <img src="assets/fog.png" />
+            </div>
+            <div>
+              <img src="assets/hand-2.png" alt="orange hand" />
+            </div>
+          </div>
+        </div>
+        <div class="message-description">
+          <h1>Get in touch.</h1>
+          <p>Want to collaborate or just say hi? <br />Feel free to email me</p>
+          <img src="assets/touch.png" alt="man pointing laptop" />
+        </div>
+      </div>
+      <div class="right-container">
+        <div class="linkedin-profile">
+          <img src="assets/linkedin-logo.svg" alt="LinkedIn logo" />
+          <div class="profile-content">
+            <img src="assets/profile-picture.png" alt="profile picture" />
+            <h4>Virto Hardiman</h4>
+            <p class="detail">Student at BINUS University</p>
+            <p>Information System</p>
+            <a href="https://id.linkedin.com/in/virto-hardiman" target="_blank">View profile</a>
+          </div>
+        </div>
+        <div class="email-form">
+          <form action="mailto:virtohardiman@gmail.com" method="post" enctype="text/plain">
+            <h4>Email</h4>
+            <input type="email" placeholder="Your email" name="email" />
+            <h4>Message</h4>
+            <textarea cols="22" rows="5" placeholder="Your message" name="message"></textarea>
+            <button type="submit">SEND</button>
+          </form>
+        </div>
+      </div>
+      <div class="navigation-container">
+        <div class="mark"></div>
+        <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="email-icon">
+          <path
+            d="M20.3333 0H1.66668C1.31305 0 0.973916 0.140476 0.723868 0.390524C0.473819 0.640573 0.333344 0.979711 0.333344 1.33333V14.6667C0.333344 15.0203 0.473819 15.3594 0.723868 15.6095C0.973916 15.8595 1.31305 16 1.66668 16H20.3333C20.687 16 21.0261 15.8595 21.2762 15.6095C21.5262 15.3594 21.6667 15.0203 21.6667 14.6667V1.33333C21.6667 0.979711 21.5262 0.640573 21.2762 0.390524C21.0261 0.140476 20.687 0 20.3333 0V0ZM19.3067 14.6667H2.77334L7.44001 9.84L6.48001 8.91333L1.66668 13.8933V2.34667L9.95334 10.5933C10.2032 10.8417 10.5411 10.9811 10.8933 10.9811C11.2456 10.9811 11.5835 10.8417 11.8333 10.5933L20.3333 2.14V13.8067L15.4267 8.9L14.4867 9.84L19.3067 14.6667ZM2.54001 1.33333H19.2533L10.8933 9.64667L2.54001 1.33333Z"
+            fill="black"
+          />
+        </svg>
+        <p class="first-text">Send <br />Message</p>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="linkedin-logo">
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M1 2.838C1 2.35053 1.19365 1.88303 1.53834 1.53834C1.88303 1.19365 2.35053 1 2.838 1H21.16C21.4016 0.999608 21.6409 1.04687 21.8641 1.13907C22.0874 1.23127 22.2903 1.36661 22.4612 1.53734C22.6322 1.70807 22.7677 1.91083 22.8602 2.13401C22.9526 2.3572 23.0001 2.59643 23 2.838V21.16C23.0003 21.4016 22.9529 21.6409 22.8606 21.8642C22.7683 22.0875 22.6328 22.2904 22.462 22.4613C22.2912 22.6322 22.0884 22.7678 21.8651 22.8602C21.6419 22.9526 21.4026 23.0001 21.161 23H2.838C2.59655 23 2.35746 22.9524 2.1344 22.86C1.91134 22.7676 1.70867 22.6321 1.53798 22.4613C1.3673 22.2905 1.23193 22.0878 1.13962 21.8647C1.04731 21.6416 0.999869 21.4025 1 21.161V2.838ZM9.708 9.388H12.687V10.884C13.117 10.024 14.217 9.25 15.87 9.25C19.039 9.25 19.79 10.963 19.79 14.106V19.928H16.583V14.822C16.583 13.032 16.153 12.022 15.061 12.022C13.546 12.022 12.916 13.111 12.916 14.822V19.928H9.708V9.388ZM4.208 19.791H7.416V9.25H4.208V19.79V19.791ZM7.875 5.812C7.88105 6.08667 7.83217 6.35979 7.73124 6.61532C7.63031 6.87084 7.47935 7.10364 7.28723 7.30003C7.09511 7.49643 6.8657 7.65248 6.61246 7.75901C6.35921 7.86554 6.08724 7.92042 5.8125 7.92042C5.53776 7.92042 5.26579 7.86554 5.01255 7.75901C4.7593 7.65248 4.52989 7.49643 4.33777 7.30003C4.14565 7.10364 3.99469 6.87084 3.89376 6.61532C3.79283 6.35979 3.74395 6.08667 3.75 5.812C3.76187 5.27286 3.98439 4.75979 4.36989 4.38269C4.75539 4.00558 5.27322 3.79442 5.8125 3.79442C6.35178 3.79442 6.86961 4.00558 7.25512 4.38269C7.64062 4.75979 7.86313 5.27286 7.875 5.812V5.812Z"
+            fill="black"
+          />
+        </svg>
+        <p class="second-text">My <br />Social</p>
+      </div>
+    </div>
+    <footer>
+      <p class="copyright">Copyright &copy; 2021 Virto Hardiman. All Rights Reserved</p>
+      <div class="line"></div>
+      <p class="attribution">
+        Source: <a href="https://craftwork.design/downloads/draw/" target="_blank">Illustration</a>, <a href="https://github.com/vmware/clarity" target="_blank">Mail Icon</a>,
+        <a href="https://github.com/artcoholic/akar-icons" target="_blank">LinkedIn Logo</a>, <a href="https://github.com/gilbarbara/logos" target="_blank">Linkedin Wordmark</a>
+      </p>
+    </footer>
+  </body>
+</html>
