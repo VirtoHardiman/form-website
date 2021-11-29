@@ -645,7 +645,7 @@ footer a {
 }
 
 .show-navigation:checked ~ .description .social-description .fog {
-  animation: fog 8s infinite ease-in-out;
+  animation: fog 4s 8s infinite ease-in-out;
 }
 
 @keyframes fog {
