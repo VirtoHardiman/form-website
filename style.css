@@ -304,6 +304,7 @@ textarea {
   height: 130px;
   background-color: #ffd7a3;
   border: 1px solid #978364;
+  overflow: hidden;
 }
 
 .image-container div img {
@@ -511,4 +512,153 @@ footer a {
   width: 1px;
   height: 22px;
   background-color: #978364;
+}
+
+/* animation */
+.show-navigation:checked ~ .description .social-description .bird-lines {
+  animation: birdlines 0.8s infinite;
+}
+
+@keyframes birdlines {
+  0% {
+    opacity: 0;
+  }
+  51% {
+    opacity: 0;
+  }
+  52% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.show-navigation:checked ~ .description .social-description .car {
+  animation: movecar 12s infinite ease-in-out;
+}
+
+@keyframes movecar {
+  0% {
+    left: -200px;
+  }
+  30% {
+    left: 40px;
+  }
+  50% {
+    left: 40px;
+  }
+  60% {
+    left: 60px;
+  }
+  70% {
+    left: 300px;
+  }
+  100% {
+    left: 300px;
+  }
+}
+
+.show-navigation:checked ~ .description .social-description .car-lines {
+  animation: carlines 12s infinite ease-in-out;
+}
+
+@keyframes carlines {
+  0% {
+    opacity: 0;
+    left: -190px;
+  }
+  30% {
+    opacity: 0;
+    left: 30px;
+  }
+  50% {
+    opacity: 0;
+    left: 30px;
+  }
+  51% {
+    opacity: 1;
+  }
+  52% {
+    opacity: 0;
+  }
+  53% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 1;
+  }
+  56% {
+    opacity: 0;
+  }
+  57% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+    left: 50px;
+  }
+  70% {
+    opacity: 1;
+    left: 290px;
+  }
+  100% {
+    opacity: 1;
+    left: 290px;
+  }
+}
+
+.show-navigation:checked ~ .description .social-description .error {
+  animation: error 1s infinite step-end;
+}
+
+@keyframes error {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  51% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.show-navigation:checked ~ .description .social-description .crack {
+  animation: crack 4s forwards step-end;
+}
+
+@keyframes crack {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fog {
+  opacity: 0;
+}
+
+.show-navigation:checked ~ .description .social-description .fog {
+  animation: fog 8s infinite ease-in-out;
+}
+
+@keyframes fog {
+  0% {
+    opacity: 0;
+    transform: scale(0.6) translateY(40px);
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.4) translateY(-10px);
+  }
 }
