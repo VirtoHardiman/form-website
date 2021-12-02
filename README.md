@@ -21,6 +21,8 @@
 
 **The course that I followed:** [HTML Forms](https://frontendmasters.com/bootcamp/html-forms/)
 
+**Shot template:** [Screenly - Shot Template](https://www.figma.com/community/file/1010486725986952834)
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
