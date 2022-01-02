@@ -1,4 +1,4 @@
-![Project Cover](https://i.imgur.com/xVY8x0S.png)
+![Project Cover](https://i.imgur.com/hPxohW5.png)
 
 **Demo link**: [https://virtohardiman.github.io/form-website/](https://virtohardiman.github.io/form-website/)
 
